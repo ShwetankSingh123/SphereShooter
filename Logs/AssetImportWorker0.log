@@ -15,7 +15,7 @@ C:/Users/gvish/OneDrive/Documents/GitHub/SphereShooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64505
+58532
 Successfully changed project path to: C:/Users/gvish/OneDrive/Documents/GitHub/SphereShooter
 C:/Users/gvish/OneDrive/Documents/GitHub/SphereShooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/gvish/OneDrive/Documents/GitHub/SphereShooter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 827.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 254.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.049275 seconds.
+Registered in 0.021186 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 235.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 245.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.113 seconds
+- Completed reload, in  1.911 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3115ms)
-		BeginReloadAssembly (535ms)
+	ReloadAssembly (1912ms)
+		BeginReloadAssembly (369ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2120ms)
-			LoadAssemblies (537ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (646ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (363ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (852ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (673ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (254ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (235ms)
+				InitializePlatformSupportModulesInManaged (158ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (246ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.177299 seconds.
-Android Extension - Scanning For ADB Devices 10489 ms
+Registered in 0.076988 seconds.
+Android Extension - Scanning For ADB Devices 5697 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\gvish\OneDrive\Documents\GitHub\SphereShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\gvish\OneDrive\Documents\GitHub\SphereShooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 201.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 311.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.017 seconds
+- Completed reload, in  3.104 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3018ms)
-		BeginReloadAssembly (340ms)
+	ReloadAssembly (3106ms)
+		BeginReloadAssembly (295ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (2431ms)
-			LoadAssemblies (527ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (2567ms)
+			LoadAssemblies (474ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (701ms)
+			SetupTypeCache (589ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (1140ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1369ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (202ms)
-				BeforeProcessingInitializeOnLoad (210ms)
-				ProcessInitializeOnLoadAttributes (531ms)
-				ProcessInitializeOnLoadMethodAttributes (163ms)
+				RefreshPlugins (312ms)
+				BeforeProcessingInitializeOnLoad (283ms)
+				ProcessInitializeOnLoadAttributes (549ms)
+				ProcessInitializeOnLoadMethodAttributes (177ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5357 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 58 unused Assets / (0.7 MB). Loaded Objects now: 5789.
 Memory consumption went from 208.4 MB to 207.7 MB.
-Total: 11.285300 ms (FindLiveObjects: 0.886200 ms CreateObjectMapping: 0.684000 ms MarkObjects: 9.088100 ms  DeleteObjects: 0.623600 ms)
+Total: 12.839600 ms (FindLiveObjects: 0.771800 ms CreateObjectMapping: 0.658200 ms MarkObjects: 10.730300 ms  DeleteObjects: 0.676600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +163,1100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1851456.851038 seconds.
-  path: Assets/Prefabs/untitled1.png
-  artifactKey: Guid(507db879d30f71c44851775d545eeb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/untitled1.png using Guid(507db879d30f71c44851775d545eeb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5d8d3d6a596a1c038ce92cf386d3b5') in 0.681048 seconds 
+  Time since last request: 1868724.760113 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputKeyboard.cs
+  artifactKey: Guid(cc14663d8f479984a8dc301c723eaf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputKeyboard.cs using Guid(cc14663d8f479984a8dc301c723eaf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e669952b003d8a11ac7eece109aeaa') in 0.335539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065235 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/FlatDark/Joystick/flatDark00.png
+  artifactKey: Guid(feb4e677e7afc03429ca1c69ca33d783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/FlatDark/Joystick/flatDark00.png using Guid(feb4e677e7afc03429ca1c69ca33d783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e0033bd052a1b6399092f80a66cfab') in 0.229735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022657 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/FlatLight
+  artifactKey: Guid(172ad0a6d2fe927469b098a22c38a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/FlatLight using Guid(172ad0a6d2fe927469b098a22c38a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b97596ebf116155ae041ef21ecc196') in 0.012877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011798 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark26.png
+  artifactKey: Guid(e2f20be4a9f1c184485bcdc7bc65e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark26.png using Guid(e2f20be4a9f1c184485bcdc7bc65e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f345ca93d9424a48878299d375fe0a1') in 0.043077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark
+  artifactKey: Guid(4ed086181e4e6854fa46fe0b86dab041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark using Guid(4ed086181e4e6854fa46fe0b86dab041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aff40a5c945c6559dfd35a0b9c98eae') in 0.010745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082088 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/shadedDark11.png
+  artifactKey: Guid(68779cbdef076cc4fa3f6e3c4edc7873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/shadedDark11.png using Guid(68779cbdef076cc4fa3f6e3c4edc7873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7776c64e5c7489e0cb88cf33d4d2c311') in 0.037498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core
+  artifactKey: Guid(6ed143ffc8efd1d4fb0dfb63ab3a978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core using Guid(6ed143ffc8efd1d4fb0dfb63ab3a978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e1ea8240921abf5d92acbc07267d50') in 0.010377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004312 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/ArrowsHorizontal.prefab
+  artifactKey: Guid(3066c3a8fcfd6fc4482868bf62045594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/ArrowsHorizontal.prefab using Guid(3066c3a8fcfd6fc4482868bf62045594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba24c086c346b5443b10d1c17eef5fac') in 0.041807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark27.png
+  artifactKey: Guid(83b4d2d7539de7a439576f4abc1d8354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark27.png using Guid(83b4d2d7539de7a439576f4abc1d8354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6a7e447875d3503477b49dc4c45d32') in 0.046349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(b308a92749deae84fbd8ce3e2d0adce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(b308a92749deae84fbd8ce3e2d0adce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bffcd4f75e7d62ead115982467ebe7') in 0.432509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/Scripts/utilityScript.cs
+  artifactKey: Guid(1cb6d1bcfb8efd64788b6621b34b4526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/utilityScript.cs using Guid(1cb6d1bcfb8efd64788b6621b34b4526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db1eafe3bdd88e94eb4c9edf13bc8e9') in 0.010184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001632 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/ArrowsAllDirections.prefab
+  artifactKey: Guid(36300ad3f703b964fb4e8c42be9649ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/ArrowsAllDirections.prefab using Guid(36300ad3f703b964fb4e8c42be9649ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4717c53c822e573c94d6e35a101b0aae') in 0.021836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003270 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/NonDrawingGraphic.cs
+  artifactKey: Guid(c9542c931e1c82442a58750f0f44fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/NonDrawingGraphic.cs using Guid(c9542c931e1c82442a58750f0f44fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6871a6836d724e4cf15ace4b81f4e92') in 0.009843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SimpleFX/Models
+  artifactKey: Guid(b7c343e8f94dde84ba3bc27cb010cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Models using Guid(b7c343e8f94dde84ba3bc27cb010cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f04e5086a8bd1fa1f438b62249c083e') in 0.011498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003277 seconds.
+  path: Assets/SimpleFX/Materials/FX_Splash.mat
+  artifactKey: Guid(1ee00051305bdb049b02c923f047227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/FX_Splash.mat using Guid(1ee00051305bdb049b02c923f047227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fba9e6cb6b0d8c2305aac6aa10dacad') in 0.423938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002541 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/TransparentDark/Arrows/transparentDark24.png
+  artifactKey: Guid(f57649fe1a2603a479aa18b473201768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/TransparentDark/Arrows/transparentDark24.png using Guid(f57649fe1a2603a479aa18b473201768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1d91e51ba2ff199de6ae7b2b127cc3') in 0.034790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/SimpleInput/Editor/BaseInputDrawer.cs
+  artifactKey: Guid(eca58b1bb7542da4885acdcc10d56975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Editor/BaseInputDrawer.cs using Guid(eca58b1bb7542da4885acdcc10d56975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce9e70125648d4678fa0e493c0d537') in 0.010574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006229 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark00.png
+  artifactKey: Guid(e174592c8e08c9740b7181b1d8b72c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark00.png using Guid(e174592c8e08c9740b7181b1d8b72c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4cfe8fbbc1e460ad56bf3ac41999c8') in 0.035683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001885 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/UnityInputProvider.cs
+  artifactKey: Guid(40e62a17d0b841d41a2b6db644315048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/UnityInputProvider.cs using Guid(40e62a17d0b841d41a2b6db644315048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f2336c46a845bbf8245ee876dc7757') in 0.008323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010029 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab
+  artifactKey: Guid(26d069e6f78e6f8478e4dc0152bd6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab using Guid(26d069e6f78e6f8478e4dc0152bd6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc448c8b11d5e97b672faf24bed6a80d') in 0.033284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003078 seconds.
+  path: Assets/Plugins/SimpleInput/Credits.txt
+  artifactKey: Guid(23bd993e6f5562348b23a3b7550cc6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Credits.txt using Guid(23bd993e6f5562348b23a3b7550cc6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6be4e905dc0a970b53cc3077f03c914') in 0.108400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003951 seconds.
+  path: Assets/Sounds/Assets_Sounds_explosion0.wav
+  artifactKey: Guid(5926d651f19308644a2cdd4220cd5a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Assets_Sounds_explosion0.wav using Guid(5926d651f19308644a2cdd4220cd5a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef15accba5d67d4c25cb5c5d02b4ac94') in 0.078964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002355 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputSwipeGesture.cs
+  artifactKey: Guid(5156ba8442da13c4682bc661c9667350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputSwipeGesture.cs using Guid(5156ba8442da13c4682bc661c9667350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac2e5d13ae2a5f148a95b07e2bc625d') in 0.010144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002345 seconds.
+  path: Assets/SimpleFX/_Demo/Demo.unity
+  artifactKey: Guid(dbe9743d9065a2445a22fa67fa9fdbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/_Demo/Demo.unity using Guid(dbe9743d9065a2445a22fa67fa9fdbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25a56c83b51c2f37cb46a9cadaddc4e') in 0.013019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004851 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/SteeringWheel.cs
+  artifactKey: Guid(87a2186a42ce6a34ba7023f89a01611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/SteeringWheel.cs using Guid(87a2186a42ce6a34ba7023f89a01611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32ebf91c4d81b0453aa8596753b3b0f') in 0.009071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004520 seconds.
+  path: Assets/SimpleFX/Models/FX_PoolSplash_02.fbx
+  artifactKey: Guid(7f803617a1072ec42820168bc40edb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Models/FX_PoolSplash_02.fbx using Guid(7f803617a1072ec42820168bc40edb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83333788fe21985b8033b9a330c58539') in 0.090030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001056 seconds.
+  path: Assets/Materials/PlayerTop.mat
+  artifactKey: Guid(81ca4f42a8a1c33439f218c60da046aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlayerTop.mat using Guid(81ca4f42a8a1c33439f218c60da046aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecd43582c58f9ce7a540f5f75b4390d') in 0.028350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SimpleFX/_Demo/DemoSettings.lighting
+  artifactKey: Guid(9c1b8ebfe7fb80b4eae4439949fc344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/_Demo/DemoSettings.lighting using Guid(9c1b8ebfe7fb80b4eae4439949fc344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '363d2699ec3f381cde2cc51538633d37') in 0.014558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004216 seconds.
+  path: Assets/SimpleFX/Materials/FX_Water.mat
+  artifactKey: Guid(daf5714b1bd61c84fb8f439922ec2664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/FX_Water.mat using Guid(daf5714b1bd61c84fb8f439922ec2664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d3dedde817deef8a5b91af7913c715') in 0.035605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004274 seconds.
+  path: Assets/Materials/EnemyBig.mat
+  artifactKey: Guid(6c4187b8983fd874abb08cfe867a6778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EnemyBig.mat using Guid(6c4187b8983fd874abb08cfe867a6778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8bac57b047ad855adfdbbca10b8ded') in 0.033527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/DpadMultiplePieces.prefab
+  artifactKey: Guid(f85b4a2b127c8b844b3e08d59561124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/DpadMultiplePieces.prefab using Guid(f85b4a2b127c8b844b3e08d59561124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d22e1c3b9228bd621ad3d44b4579673') in 0.027632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scripts/healthBoxSpawner.cs
+  artifactKey: Guid(575d9f46e9b8b9c47b95f47401908c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/healthBoxSpawner.cs using Guid(575d9f46e9b8b9c47b95f47401908c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4930aa9239b6f84ba8d5206574ccdddd') in 0.013543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Steam.prefab
+  artifactKey: Guid(5b6c2f68addb63847b151f0d41a9d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Steam.prefab using Guid(5b6c2f68addb63847b151f0d41a9d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a4e349a2168c55221917d6a6c19439') in 0.040454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/OtherSprites
+  artifactKey: Guid(de3eb65c723abb34e86f200ccca1751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/OtherSprites using Guid(de3eb65c723abb34e86f200ccca1751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750aa94115e5bf42d3ecb13bc8bcb9bf') in 0.008956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004071 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab
+  artifactKey: Guid(cd427f0dc853ec74a9ba1c5ff0e48ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab using Guid(cd427f0dc853ec74a9ba1c5ff0e48ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aaf752cf889c25b1f13bd14ab37d8e') in 0.050045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark24.png
+  artifactKey: Guid(1406f387437800b49a1cb6cf728e11e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark24.png using Guid(1406f387437800b49a1cb6cf728e11e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064d63cf87798149a55b28dcc22de1f3') in 0.037587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001849 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab
+  artifactKey: Guid(c83a45822d0d3f94991e76a87670125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab using Guid(c83a45822d0d3f94991e76a87670125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120b2432263d39e29334b1a93e1d6710') in 0.029980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Fire.prefab
+  artifactKey: Guid(756d99540142b5e4a8d174e18a6310d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Fire.prefab using Guid(756d99540142b5e4a8d174e18a6310d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3aeb308893331438fb35b199d546b9') in 0.033408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SimpleFX/Models/FX_PoolSplash_03.fbx
+  artifactKey: Guid(104d9f0364dc5e8438f4350ff7e726dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Models/FX_PoolSplash_03.fbx using Guid(104d9f0364dc5e8438f4350ff7e726dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5085eb52eca2b127e9ab6d2e1b185816') in 0.039279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/KeyInputs
+  artifactKey: Guid(80742c5b68f17d444b1ef23ecafe3c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/KeyInputs using Guid(80742c5b68f17d444b1ef23ecafe3c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e995c40173b438f013f0b660596226') in 0.009312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004378 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab
+  artifactKey: Guid(0f75f6db4a318f54382e0c98b2226db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab using Guid(0f75f6db4a318f54382e0c98b2226db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bf650117781a8aede185c9607662fd') in 0.138522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces
+  artifactKey: Guid(7804a34f49b78eb488e8e2b4559f3171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces using Guid(7804a34f49b78eb488e8e2b4559f3171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360a15f60a50a8da5506a45441018177') in 0.004312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001127 seconds.
+  path: Assets/Materials/PlayerBase.mat
+  artifactKey: Guid(da808e1dcb84ae84b902a594a33c3d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlayerBase.mat using Guid(da808e1dcb84ae84b902a594a33c3d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a6647e4c805bc96bb61cef5e98bd9c') in 0.026264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/SimpleInputUtils.cs
+  artifactKey: Guid(68bf9be257e135b4da6233529c2a1cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/SimpleInputUtils.cs using Guid(68bf9be257e135b4da6233529c2a1cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89f9ac4cc8d44bb47f192e0fb286876') in 0.010261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/stone_floor_texture
+  artifactKey: Guid(9ce35a496a7214a47a5b0877c2c8328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone_floor_texture using Guid(9ce35a496a7214a47a5b0877c2c8328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df108be381db9a1f8e61c91224f88f48') in 0.011366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002930 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/ISimpleInputDraggable.cs
+  artifactKey: Guid(0383241056b2aad4fac1e24d353a52e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/ISimpleInputDraggable.cs using Guid(0383241056b2aad4fac1e24d353a52e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008402fd8577e4bdab78dc504c261d6f') in 0.009761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002222 seconds.
+  path: Assets/Plugins/SimpleInput/Example/EnvironmentMat.mat
+  artifactKey: Guid(0b0b3a09994a6e94e81dae611cb60c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Example/EnvironmentMat.mat using Guid(0b0b3a09994a6e94e81dae611cb60c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b180fd69469170ac373551b74e3a5e') in 0.028714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SimpleFX/Materials/FX_Base.mat
+  artifactKey: Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/FX_Base.mat using Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16a8ed39341e8cf0cd3bbfbb38fe709') in 0.024106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputUI.cs
+  artifactKey: Guid(e4107d86bdaba964b8bcaf073e647b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputUI.cs using Guid(e4107d86bdaba964b8bcaf073e647b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6355606649dfa1bb92b5d406c579b7e5') in 0.008754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002591 seconds.
+  path: Assets/stone_floor_texture/Stone_floor_09.mat
+  artifactKey: Guid(6f3b764d69dc4d04d8e2ce516d2dfaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone_floor_texture/Stone_floor_09.mat using Guid(6f3b764d69dc4d04d8e2ce516d2dfaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896cd119327278878f7113ddd41593f6') in 0.036982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001366 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark36.png
+  artifactKey: Guid(51a39369d386ca84aaad1d4625465c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark36.png using Guid(51a39369d386ca84aaad1d4625465c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d21abfa7df2b6fa7552456dd78533e7') in 0.030568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SimpleFX/Models/FX_Lightray.fbx
+  artifactKey: Guid(e27c39df43b866b469e491273c885c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Models/FX_Lightray.fbx using Guid(e27c39df43b866b469e491273c885c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7c70cf26c97d4da17553b581cbff0f') in 0.038999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.008684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002081 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/OtherSprites/SteeringWheel.png
+  artifactKey: Guid(381b429e58f0f984a827788e78839b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/OtherSprites/SteeringWheel.png using Guid(381b429e58f0f984a827788e78839b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94710b319d52ced1384df29974a1cd4f') in 0.076293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab
+  artifactKey: Guid(6586ff0f14125534cae2f5d8f04b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab using Guid(6586ff0f14125534cae2f5d8f04b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c196f4ee4913680f1c8aa7ae5b80c83') in 0.032736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/SteeringWheel.prefab
+  artifactKey: Guid(5fe76d8874b5ab349a260c69ea0dece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/SteeringWheel.prefab using Guid(5fe76d8874b5ab349a260c69ea0dece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64432ca0e297337a4e96ebf0e2859b8') in 0.011009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(da48f16a72c90474e855a37268a5abbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(da48f16a72c90474e855a37268a5abbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebee1228b49cf325e22c3dc7de31edd9') in 0.011175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab
+  artifactKey: Guid(079954accd64b32419ec069129c81273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab using Guid(079954accd64b32419ec069129c81273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1802aff433d50828757062ef4aa04f') in 0.035530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001349 seconds.
+  path: Assets/Prefabs/healthBox.prefab
+  artifactKey: Guid(65c5ec37991ecd44fa0196be73853967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/healthBox.prefab using Guid(65c5ec37991ecd44fa0196be73853967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab989059264a27950de5cc3a705a2c18') in 0.032686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scripts/playerMovement.cs
+  artifactKey: Guid(539cb6f2490a8d84bab28cdfcb8d38e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerMovement.cs using Guid(539cb6f2490a8d84bab28cdfcb8d38e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52e8f669ac207c09751d985188b883a') in 0.009498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002314 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/Dpad.cs
+  artifactKey: Guid(98005cf4195d9954cb478595517f0d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/Dpad.cs using Guid(98005cf4195d9954cb478595517f0d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd159bd2bb1bd991220e7231665d8c2d8') in 0.009137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002991 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Smoke.prefab
+  artifactKey: Guid(ab1112643ee572748b01dede71158272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Smoke.prefab using Guid(ab1112643ee572748b01dede71158272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b40242c2661cc76dc26efb8d429761') in 0.028604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/ButtonInputs
+  artifactKey: Guid(3e3e0fe2f5f89b7418d8b0f774e1465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/ButtonInputs using Guid(3e3e0fe2f5f89b7418d8b0f774e1465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf544e9bb8ab1a9c4ce439d611505a8b') in 0.011483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputKeyboard.cs
+  artifactKey: Guid(56571356d33665b4d8bbc4977d8a54b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputKeyboard.cs using Guid(56571356d33665b4d8bbc4977d8a54b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7055901537b42d86ad3a431270447dd') in 0.011591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_GunFlash.prefab
+  artifactKey: Guid(b955daae02e019d45a8fb68cfd843784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_GunFlash.prefab using Guid(b955daae02e019d45a8fb68cfd843784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19732190d6e483467552dcb2a7b023f4') in 0.033333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputKeyboard.cs
+  artifactKey: Guid(a974ad01c9fdb5e408702ee48afc38e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputKeyboard.cs using Guid(a974ad01c9fdb5e408702ee48afc38e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc49432eb015c6065131f25f91452ad') in 0.008915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/SimpleFX/Materials/FX_Lightray.mat
+  artifactKey: Guid(7e0b60daf18511249a209d52beda2988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/FX_Lightray.mat using Guid(7e0b60daf18511249a209d52beda2988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b12d8cb88ccdf83dcb7b3e3fbe5475') in 0.019615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab
+  artifactKey: Guid(1570b78163aaedc44bfd35cf13a9f13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab using Guid(1570b78163aaedc44bfd35cf13a9f13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310c804c0ef8a93b2d849251f189cd18') in 0.032722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Plugins/SimpleInput
+  artifactKey: Guid(e7aa7b1a54cec6546ab9d6d0ac6c4f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput using Guid(e7aa7b1a54cec6546ab9d6d0ac6c4f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20866a186cbb1bdb7d9d177629f571f') in 0.012817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(b55f5e77bd53db84993d75dae1fe06f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(b55f5e77bd53db84993d75dae1fe06f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f12dab1c243673c9a5a509395d584c0') in 0.022913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight10.png
+  artifactKey: Guid(3166043dec3cd5d48ab026a0a162a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight10.png using Guid(3166043dec3cd5d48ab026a0a162a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caeb72770b606023d3263de691a8a1c') in 0.046567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(8e0e246adda88c747b7937159d6bb574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(8e0e246adda88c747b7937159d6bb574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be428361436125928be861ddf9b76d37') in 0.013294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputSwipeGesture.cs
+  artifactKey: Guid(8a90681e07d4e3c47a110a9555eea57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputSwipeGesture.cs using Guid(8a90681e07d4e3c47a110a9555eea57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d446a044417f2d62ff45ce36c136337') in 0.012581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputMoveGesture.cs
+  artifactKey: Guid(842273f6b4c7e2c499cb78e039baf07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputMoveGesture.cs using Guid(842273f6b4c7e2c499cb78e039baf07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a9aa528c83acd18082005105f88297') in 0.015766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/Touchpad.cs
+  artifactKey: Guid(d24ddbdc4c85dc043aba5a6335f816f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/Touchpad.cs using Guid(d24ddbdc4c85dc043aba5a6335f816f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae058c6d25c81fd133459dc9f0e79616') in 0.010375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/SelectivePointerInput.cs
+  artifactKey: Guid(4c170c3cabf2fd14c9598702d366a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/SelectivePointerInput.cs using Guid(4c170c3cabf2fd14c9598702d366a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f90269d5eb1fa76fef23ecf3b966fd9') in 0.015933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scripts/healthBox.cs
+  artifactKey: Guid(4ff1739cc514439439f759aabee4521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/healthBox.cs using Guid(4ff1739cc514439439f759aabee4521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b88c50d2c6ec61f56f1938db6b95ea2') in 0.007234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scripts/enemy.cs
+  artifactKey: Guid(792c02f383fa9da4d8e77d21c8c0c41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/enemy.cs using Guid(792c02f383fa9da4d8e77d21c8c0c41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c13c867e5be0195cacf2a6aa608bfb0') in 0.009984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_PoolSplash_01.prefab
+  artifactKey: Guid(ad879d352fd419047bdfc53b3d2a1961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_PoolSplash_01.prefab using Guid(ad879d352fd419047bdfc53b3d2a1961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913f4970f729640ab81d6922ad2c6506') in 0.036704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scripts/BulletSystem.cs
+  artifactKey: Guid(fcbc9a5ceb349f64ba10f6c07d2013ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BulletSystem.cs using Guid(fcbc9a5ceb349f64ba10f6c07d2013ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5970b25c3e3cd258d8953c0885f5df') in 0.012306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Plugins/SimpleInput/Example/GlassesMat.mat
+  artifactKey: Guid(5c7644bbe440b054580b36911866efee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Example/GlassesMat.mat using Guid(5c7644bbe440b054580b36911866efee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0092d1b9151812fa31cfe97e59bd790') in 0.031676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight06.png
+  artifactKey: Guid(7d504517c5476c14383e765e9d58ac62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight06.png using Guid(7d504517c5476c14383e765e9d58ac62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38360a3b05be59b3e5ef6cc27a2a954') in 0.049636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/SimpleInput/Example/BouncyMat.physicMaterial
+  artifactKey: Guid(6b44f8f15f22b4e4d9f03d3abc4e5f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Example/BouncyMat.physicMaterial using Guid(6b44f8f15f22b4e4d9f03d3abc4e5f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc93141c315720b0fdc3ac501208f73') in 0.014881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/DpadOnePiece
+  artifactKey: Guid(1e686c45fcf7f694c85b912ed248491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/DpadOnePiece using Guid(1e686c45fcf7f694c85b912ed248491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7cd8c763f1658ee865bb2329922daf') in 0.013428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/TransparentDark/Arrows/transparentDark25.png
+  artifactKey: Guid(062cee36aaf322e47821b456db3e1f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/TransparentDark/Arrows/transparentDark25.png using Guid(062cee36aaf322e47821b456db3e1f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2422a5fecc5823c60bfaa881b4a92d60') in 0.059635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/FlatDark
+  artifactKey: Guid(77c98b7c4b8cafb4ba1b945f49aa123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/FlatDark using Guid(77c98b7c4b8cafb4ba1b945f49aa123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac0ba45dd82e3762a7b740a764457ee') in 0.020230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(ec1cbfdcd395ffc4ab78228db6a82dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ec1cbfdcd395ffc4ab78228db6a82dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4e2071f94f542ab40901f4db6ee563') in 0.030432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Lightray.prefab
+  artifactKey: Guid(e7aa3eba36ce5d04c84a01925e585932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Lightray.prefab using Guid(e7aa3eba36ce5d04c84a01925e585932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234aebdb639c5eb52fd15d83e26c10ce') in 0.067451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SimpleFX/Materials/FX_GunFlash.mat
+  artifactKey: Guid(f1b0fea076fb0574d868f6e3d9523f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/FX_GunFlash.mat using Guid(f1b0fea076fb0574d868f6e3d9523f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dee8d999373f87dda79e0d1f0a5b948') in 0.092828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_WaterSplash.prefab
+  artifactKey: Guid(e49403f034d74ee44aa8a41b0ee4abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_WaterSplash.prefab using Guid(e49403f034d74ee44aa8a41b0ee4abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72286fd93e1ac1c91cbfe12b97cbebe4') in 0.128855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Prefabs/untitled.png
+  artifactKey: Guid(c3d51a3f7b1850441b9ed8b4a54f871e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/untitled.png using Guid(c3d51a3f7b1850441b9ed8b4a54f871e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64fe9a8c64c0b7b7fc42cb2dec59079') in 0.927397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_TireSmoke.prefab
+  artifactKey: Guid(d7bf18dd20422304ea868e95c3518f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_TireSmoke.prefab using Guid(d7bf18dd20422304ea868e95c3518f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa08961666644d70c42de04998243ff') in 0.052006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SimpleFX
+  artifactKey: Guid(86ea3fe904596a54e9a8c056084d29fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX using Guid(86ea3fe904596a54e9a8c056084d29fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1379db3d13d0b7c59afaab9c42a1a2a4') in 0.020770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.124026 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs
+  artifactKey: Guid(9b26e804aebd79444bab51f94094846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs using Guid(9b26e804aebd79444bab51f94094846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92739a0fb9ed43c3d08e1157536a07d') in 0.011543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark45.png
+  artifactKey: Guid(be6deb8bf525f96498b79add47297699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark45.png using Guid(be6deb8bf525f96498b79add47297699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c58370cd75f966b984d9a2c74d0601') in 0.054567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/SimpleInput/ExtraResources.unitypackage
+  artifactKey: Guid(c2977ea9c52e9824688491c7c6d3f490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/ExtraResources.unitypackage using Guid(c2977ea9c52e9824688491c7c6d3f490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fb9b2b5edec0395e5d70f00c1b35da') in 0.038152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sounds/Assets_Sounds_fireBullets.wav
+  artifactKey: Guid(40eff43307f88cc4e8182640985323e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Assets_Sounds_fireBullets.wav using Guid(40eff43307f88cc4e8182640985323e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028bc21123f093483fc6a71d4e0da7ae') in 0.045099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight03.png
+  artifactKey: Guid(d034e08b2788726409842f1003c1336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight03.png using Guid(d034e08b2788726409842f1003c1336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a80db1f80155d2cf01acf6ccff478c') in 0.047065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SimpleFX/Materials/FX_Glow.mat
+  artifactKey: Guid(040cfa3c61ad57946ae16c627e338920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/FX_Glow.mat using Guid(040cfa3c61ad57946ae16c627e338920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd7524c48950debba0c8bb362541445') in 0.041211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003054 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/FlatDark/Joystick
+  artifactKey: Guid(e01a93cf7fdfdf14c9e07c21825719af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/FlatDark/Joystick using Guid(e01a93cf7fdfdf14c9e07c21825719af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406884ddbd5c982949d2ed1e64f1ac1e') in 0.012885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_PoolSplash_02.prefab
+  artifactKey: Guid(0d37f80e5a9508346b0ec65e1917e053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_PoolSplash_02.prefab using Guid(0d37f80e5a9508346b0ec65e1917e053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93ac74c7c28176ee1df29b2b5c0ffd7') in 0.039468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/FlatLight/Arrows
+  artifactKey: Guid(310d49798f131a54f9fa2f53ce9eeab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/FlatLight/Arrows using Guid(310d49798f131a54f9fa2f53ce9eeab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232d294160e4cc2f81a216c902bc43cf') in 0.025539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001686 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/FlatLight/Arrows/flatLight22.png
+  artifactKey: Guid(cbe53ee11b8b16b4986e16fc2c13abcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/FlatLight/Arrows/flatLight22.png using Guid(cbe53ee11b8b16b4986e16fc2c13abcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4150e83f02d3e40023972e2f50fb6d02') in 0.042429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002795 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab
+  artifactKey: Guid(6636b3078b0905e489f698a11b7a6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab using Guid(6636b3078b0905e489f698a11b7a6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aade316331484ca97e61160d1e5db01') in 0.037709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/TransparentDark
+  artifactKey: Guid(dbb7779534c93d648b4894145668f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/TransparentDark using Guid(dbb7779534c93d648b4894145668f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd05ab0f7443e3aea44c686dd3470f2') in 0.013122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/Prefabs/Pause.png
+  artifactKey: Guid(8520d607c54229a418c3ff5270546661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pause.png using Guid(8520d607c54229a418c3ff5270546661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1860623c9122f2067da19cba5416606') in 0.070581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/DpadOnePiece.prefab
+  artifactKey: Guid(fc57d97f3d02d954fb2ef7f56d585ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/DpadOnePiece.prefab using Guid(fc57d97f3d02d954fb2ef7f56d585ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0381082652e376bc10ce53df15f1ff66') in 0.014722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Plugins/SimpleInput/Editor/KeyInputDrawer.cs
+  artifactKey: Guid(86d29f9c9e5e8484d9cb45830a3feab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Editor/KeyInputDrawer.cs using Guid(86d29f9c9e5e8484d9cb45830a3feab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39a5b4fe0b066103816f4bebd6e3b82') in 0.014052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/SimpleFX/Models/FX_Rubble.fbx
+  artifactKey: Guid(42e0384be8104584cbcc3a1fadaafb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Models/FX_Rubble.fbx using Guid(42e0384be8104584cbcc3a1fadaafb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d69146015aae2e5f431190279b5205') in 0.054813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/Joystick.cs
+  artifactKey: Guid(1d42b387efc83be49900b546e4052e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/Joystick.cs using Guid(1d42b387efc83be49900b546e4052e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a09ceea572d103fa1c4bc8795f70a90') in 0.003454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001645 seconds.
+  path: Assets/Materials/Ground.mat
+  artifactKey: Guid(99613e0430b9f4d4680d8804d9cbc31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ground.mat using Guid(99613e0430b9f4d4680d8804d9cbc31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6229ed52370f3b0e15d0534a61e25d68') in 0.060966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_BloodSplatter.prefab
+  artifactKey: Guid(8c27aeead6d968e4ba986702d6b84335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_BloodSplatter.prefab using Guid(8c27aeead6d968e4ba986702d6b84335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612aac14f9830ab6a4406172c24f9d54') in 0.037080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002632 seconds.
+  path: Assets/Materials/Enemy.mat
+  artifactKey: Guid(40a1f503d037d4e459d412778a3e6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Enemy.mat using Guid(40a1f503d037d4e459d412778a3e6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51963467f2b0087bb24141e3f4d6a3e') in 0.040222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/SimpleInput/Example
+  artifactKey: Guid(d6a80befc9d61c5458d50a7edf7c00ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Example using Guid(d6a80befc9d61c5458d50a7edf7c00ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78182ea90196fd81fe29a499a77617b') in 0.011755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputUI.cs
+  artifactKey: Guid(fda952153dba3064ab80a62889c1583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputUI.cs using Guid(fda952153dba3064ab80a62889c1583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011b5eb154f56f882c843f453a47cb3c') in 0.016444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SimpleFX/Materials
+  artifactKey: Guid(29515bda4c696e74c9e41cfd779a641a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials using Guid(29515bda4c696e74c9e41cfd779a641a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4e5ae04a68a81c05eb7a7f5303e62e') in 0.004134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001314 seconds.
+  path: Assets/Plugins/SimpleInput/Editor/ButtonInputDrawer.cs
+  artifactKey: Guid(807954391627078488b7b2355ae0c66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Editor/ButtonInputDrawer.cs using Guid(807954391627078488b7b2355ae0c66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc1db353933cd0d24a7028d41513383') in 0.008407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/DpadOnePiece/shadedDark04.png
+  artifactKey: Guid(a7b49600f61b7674380e5aaec149d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/DpadOnePiece/shadedDark04.png using Guid(a7b49600f61b7674380e5aaec149d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffb664140c434da8457430c133306f8') in 0.044183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002478 seconds.
+  path: Assets/Plugins/SimpleInput/README.txt
+  artifactKey: Guid(6b75b1192eaae08459d581ac845ba27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/README.txt using Guid(6b75b1192eaae08459d581ac845ba27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070a790b64360b982f831ff67131f9ee') in 0.012951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007108 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputMouse.cs
+  artifactKey: Guid(22399be9592f58241ac1138672496a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputMouse.cs using Guid(22399be9592f58241ac1138672496a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcbc2cffdfe9d919e881da984f30510') in 0.012233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(0b750b4dd21b62346b05d874e214a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(0b750b4dd21b62346b05d874e214a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a94d7c422620a28a6220afa4f5abe4') in 0.043616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab
+  artifactKey: Guid(5702e2a6fea804b45b49b70d8feaf7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab using Guid(5702e2a6fea804b45b49b70d8feaf7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94623de825f5cb537f965458dbebfed') in 0.041668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_PoolSplash_03.prefab
+  artifactKey: Guid(b147df4880cd0df449352ee652f14686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_PoolSplash_03.prefab using Guid(b147df4880cd0df449352ee652f14686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf3cdcc88c8fa439d50db9cd26b203d') in 0.046891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/FlatLight/Arrows/flatLight23.png
+  artifactKey: Guid(0d4427e968e720644b7c4a42a70c0854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/FlatLight/Arrows/flatLight23.png using Guid(0d4427e968e720644b7c4a42a70c0854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31d89f284135359111723fe10255c93') in 0.038553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/SimpleInputMultiDragListener.cs
+  artifactKey: Guid(fd2b1b62768d1834a9c1821a5c04c594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/SimpleInputMultiDragListener.cs using Guid(fd2b1b62768d1834a9c1821a5c04c594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b08b1afb599fd7660b99229340b01ae') in 0.010694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002824 seconds.
+  path: Assets/Materials/Bullet.mat
+  artifactKey: Guid(5041a08cb0035a34cb4d19328db04298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bullet.mat using Guid(5041a08cb0035a34cb4d19328db04298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbfbb59154425edf882f673a4801a0a') in 0.034950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SimpleFX/Models/FX_GunFlash.fbx
+  artifactKey: Guid(50a5b61475aba5649a793b8d076e8681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Models/FX_GunFlash.fbx using Guid(50a5b61475aba5649a793b8d076e8681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1df1868c147a14d38882c5407d0718c') in 0.056348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/SimpleInput/Example/PlayerMat.mat
+  artifactKey: Guid(069c00ebeb26fc84ba244cd7ced51cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Example/PlayerMat.mat using Guid(069c00ebeb26fc84ba244cd7ced51cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29452d1db09f965be726871f6f930dff') in 0.040984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001042 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight05.png
+  artifactKey: Guid(9329ad6eca7fdf849b8885dea848b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight05.png using Guid(9329ad6eca7fdf849b8885dea848b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf74bb191fafbb4076934d021f66607') in 0.028857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(a4c40e67b096d804c970735eeefd5d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(a4c40e67b096d804c970735eeefd5d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a500cd2f20559888f8c7d1ea8548dd') in 0.042494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/SimpleInput/Editor/MouseButtonInputDrawer.cs
+  artifactKey: Guid(a109724b706e596419d6a7ff4c2a9e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Editor/MouseButtonInputDrawer.cs using Guid(a109724b706e596419d6a7ff4c2a9e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622129ca178754833a33a22e79f60052') in 0.010435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputRotateGesture.cs
+  artifactKey: Guid(7093f913c66112149bf397416dfed85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputRotateGesture.cs using Guid(7093f913c66112149bf397416dfed85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd7f806ebc013484e1e29e1f257bbd8') in 0.009816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001896 seconds.
+  path: Assets/Plugins/SimpleInput/Example/ExamplePlayerController.cs
+  artifactKey: Guid(d9dd336b25bf97b4abc19bbfb79b9c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Example/ExamplePlayerController.cs using Guid(d9dd336b25bf97b4abc19bbfb79b9c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e98295cf2445df4b89fd0e2af5fed4d') in 0.009307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs
+  artifactKey: Guid(78f36aa59c3edc044ad2c979e93d63eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs using Guid(78f36aa59c3edc044ad2c979e93d63eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda8db0332cbd2f60b9740b8a0d1a534') in 0.008468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts
+  artifactKey: Guid(0236cef1d076c194d862f76b3d3a90ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts using Guid(0236cef1d076c194d862f76b3d3a90ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6e5dc8f8f44ba2be7f74bd1046cec5') in 0.002972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005165 seconds.
+  path: Assets/Plugins/SimpleInput/Example/ExampleScene.unity
+  artifactKey: Guid(e33a0aeabb903c842bad84315710646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Example/ExampleScene.unity using Guid(e33a0aeabb903c842bad84315710646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d714067925fa97e9a22d1816769bef') in 0.013034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scripts/AdsManager.cs
+  artifactKey: Guid(403ab7f617b355340a95c3f3910a92f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AdsManager.cs using Guid(403ab7f617b355340a95c3f3910a92f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07a8bbb1a61998a9e6ac7e047ed8529') in 0.011331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/SimpleFX/Materials/FX_Rubble.mat
+  artifactKey: Guid(7a9bced7715b2c047b5413e33bc60d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/FX_Rubble.mat using Guid(7a9bced7715b2c047b5413e33bc60d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef15d2b1fe078653b915970383b82e9c') in 0.018569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputSwipeGesture.cs
+  artifactKey: Guid(2d07eac9db8e46d4d862e4ba985d21ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputSwipeGesture.cs using Guid(2d07eac9db8e46d4d862e4ba985d21ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3684556aee3888aa6c59165cc5a388') in 0.010751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputPinchGesture.cs
+  artifactKey: Guid(831335ccd0bb25d44b6d708219144b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputPinchGesture.cs using Guid(831335ccd0bb25d44b6d708219144b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc79d0da9fbbc237141b9add6c435b5') in 0.009198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scripts/enemySpawner.cs
+  artifactKey: Guid(d0f78e177d0254f41a815f73ca20b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/enemySpawner.cs using Guid(d0f78e177d0254f41a815f73ca20b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd18d2c9ec246c7eabc7b17f46afd2fe') in 0.010195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003213 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/SimpleInputDragListener.cs
+  artifactKey: Guid(b52dca7e30160fe448d7cd2c412efecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/SimpleInputDragListener.cs using Guid(b52dca7e30160fe448d7cd2c412efecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41654e9900de0a78f3c7df7507f2fe00') in 0.010936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001381 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Rubble.prefab
+  artifactKey: Guid(7904355fdf7fdcb4ebc3dca81eb5890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Rubble.prefab using Guid(7904355fdf7fdcb4ebc3dca81eb5890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da890a75e14c4de5a488fd85489e38df') in 0.025076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/stone_floor_texture/Stone_floor_09.png
+  artifactKey: Guid(6cac73f2a8fa6ce42b25c745285032ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stone_floor_texture/Stone_floor_09.png using Guid(6cac73f2a8fa6ce42b25c745285032ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1608850b44964a806d654a9246fca95a') in 0.038788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007058 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab
+  artifactKey: Guid(cd4d7020429cde74db076ffa72495419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab using Guid(cd4d7020429cde74db076ffa72495419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a901cf1f11531e369a5d75b2e294fa7e') in 0.031568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/Destroyer.cs
+  artifactKey: Guid(f349a757f6677144cb7dfb47458b9133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Destroyer.cs using Guid(f349a757f6677144cb7dfb47458b9133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f08f96df2a54f6f1dad7c29e171b5c2') in 0.009242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Scripts/cameraFollow.cs
+  artifactKey: Guid(ecf22acb9f797ce47b11bd692c258742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/cameraFollow.cs using Guid(ecf22acb9f797ce47b11bd692c258742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e96a56e8f84f25f40010af91334246') in 0.009116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002326 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputUI.cs
+  artifactKey: Guid(fc8d2f3cf1118bf4ab1c5f540a08bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/KeyInputs/KeyInputUI.cs using Guid(fc8d2f3cf1118bf4ab1c5f540a08bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99851b31a71abbd315c78d39d1807f5f') in 0.011844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_WaterSplatter.prefab
+  artifactKey: Guid(263867d4955e3644f9a1dfa779ab7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_WaterSplatter.prefab using Guid(263867d4955e3644f9a1dfa779ab7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579a347ec496754cba6992841cd292b8') in 0.036696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputSwipeGesture.cs
+  artifactKey: Guid(32ed8d180db436746892bf97b4f0f333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputSwipeGesture.cs using Guid(32ed8d180db436746892bf97b4f0f333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648527aea1fa33fafcb315061e1ee5f3') in 0.009072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons
+  artifactKey: Guid(1205f149ef797d24b878f10d616d8768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons using Guid(1205f149ef797d24b878f10d616d8768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11a459079b37e0dea8dcdc8cfcd8f49') in 0.010133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002803 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1a8ce5ac4b0c3be17a663978f4bc5b') in 0.008922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006353 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/ArrowsVertical.prefab
+  artifactKey: Guid(afec60b2ce5345c4782cc0a45e5fa926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/ArrowsVertical.prefab using Guid(afec60b2ce5345c4782cc0a45e5fa926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946b19b71fe6cbed9fdd14cf16457973') in 0.017199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001550 seconds.
+  path: Assets/SimpleFX/Models/FX_PoolSplash_01.fbx
+  artifactKey: Guid(89f5c0aef85208c47827ce19d9767acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Models/FX_PoolSplash_01.fbx using Guid(89f5c0aef85208c47827ce19d9767acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f4d1f84cc89fe0766e4b5b9af0d4b1') in 0.088591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_DirtSplatter.prefab
+  artifactKey: Guid(834c99069a124aa439d5795c3579843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_DirtSplatter.prefab using Guid(834c99069a124aa439d5795c3579843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da94e647083751f5eb3e708ef73e7340') in 0.028875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000721 seconds.
+  path: Assets/Prefabs/EnemyBig.prefab
+  artifactKey: Guid(f043d97f5848f034eb138e902bcca835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyBig.prefab using Guid(f043d97f5848f034eb138e902bcca835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5be4526aecc01c68a35c7df761c498f') in 0.048677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Scripts/healthManager.cs
+  artifactKey: Guid(992517f39e0647f49980dc54241bbe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/healthManager.cs using Guid(992517f39e0647f49980dc54241bbe3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81630b8e3ca153cb2f4145fd7788ea02') in 0.077570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputKeyboard.cs
+  artifactKey: Guid(5409ad7137422ce48b283ed417156c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputKeyboard.cs using Guid(5409ad7137422ce48b283ed417156c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9fac6162734a62050349aeec0ea080') in 0.017541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/ISimpleInputDraggableMultiTouch.cs
+  artifactKey: Guid(542cc28fca7a01e4c94bec265ff28589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/ISimpleInputDraggableMultiTouch.cs using Guid(542cc28fca7a01e4c94bec265ff28589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c914c0282140ed413a78a14a15692c9') in 0.021626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002569 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputUIArrows.cs
+  artifactKey: Guid(1a70dc776bc37f748a08a41f672a58e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputUIArrows.cs using Guid(1a70dc776bc37f748a08a41f672a58e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47caf61f5d62f0b7b6f76dbc8dc6ad0') in 0.013940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/AxisInputs
+  artifactKey: Guid(2d00e6b99f194cb4bb45aab4678ddf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/AxisInputs using Guid(2d00e6b99f194cb4bb45aab4678ddf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaa19effa13296742deff14ab2e68dd') in 0.019458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites
+  artifactKey: Guid(d4ea82fabc85fa344bdab4a574e7b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites using Guid(d4ea82fabc85fa344bdab4a574e7b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1113f78a6d2977195aff3d948790692') in 0.013357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012617 seconds.
+  path: Assets/Plugins/SimpleInput/Editor/AxisInputDrawer.cs
+  artifactKey: Guid(174c0f628c7d3e44e9d9698a45fcf1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Editor/AxisInputDrawer.cs using Guid(174c0f628c7d3e44e9d9698a45fcf1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5458e9565d10cdddc6afaf986e1ebc4e') in 0.014849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/TransparentDark/Arrows
+  artifactKey: Guid(3e453af3f4d160c408039676f9a8ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/TransparentDark/Arrows using Guid(3e453af3f4d160c408039676f9a8ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df368fadb1011393d16f7dd2ef71c05') in 0.007028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/SimpleFX/Materials/UnlitVertexColour_Alpha.shader
+  artifactKey: Guid(125f31ba4cdefb2469a075f509877b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/UnlitVertexColour_Alpha.shader using Guid(125f31ba4cdefb2469a075f509877b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a095739c3f681db5c43eae653e69704') in 0.014914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputUI.cs
+  artifactKey: Guid(995f34434fbe45d46aacf4e120446279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/ButtonInputs/ButtonInputUI.cs using Guid(995f34434fbe45d46aacf4e120446279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d46d4482120897d46b26707f9e3c6e0') in 0.021050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/SimpleInput/SimpleInput.Runtime.asmdef
+  artifactKey: Guid(16a35b22bcb3d68408bec3de04e2d6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/SimpleInput.Runtime.asmdef using Guid(16a35b22bcb3d68408bec3de04e2d6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8199930f4999607ef4e627632c0498e') in 0.047363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001690 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/SimpleInput.cs
+  artifactKey: Guid(5e9007fbfcf04994b88c10e02cbc4229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/SimpleInput.cs using Guid(5e9007fbfcf04994b88c10e02cbc4229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45ecfe59d5d70445cdba201158fcd19') in 0.015250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/scoreManager.cs
+  artifactKey: Guid(a1c17aa6be2cc4d43965904755d02d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/scoreManager.cs using Guid(a1c17aa6be2cc4d43965904755d02d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc70874e52842a8291b8d8da5960067') in 0.014065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/SimpleFX/Prefabs/FX_FlameThrower.prefab
+  artifactKey: Guid(5cd5599e01f32bd418f20a3b9eac1c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs/FX_FlameThrower.prefab using Guid(5cd5599e01f32bd418f20a3b9eac1c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdc6675ce3767ad9c3e8ca5887a4888') in 0.057014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002348 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/BaseInput.cs
+  artifactKey: Guid(c85f310d3f84a214385ae2981b6709c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/BaseInput.cs using Guid(c85f310d3f84a214385ae2981b6709c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00e1a94f07615869d09dee4e68954eb') in 0.012896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003928 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/FlatDark/flatDark06.png
+  artifactKey: Guid(ec82f38f33c98ad4e9b63e173baec013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/FlatDark/flatDark06.png using Guid(ec82f38f33c98ad4e9b63e173baec013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef82dd227b8866067bb7668feb818a55') in 0.080443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimpleFX/_Demo
+  artifactKey: Guid(9fda9b819e89775428b0be13d41c225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/_Demo using Guid(9fda9b819e89775428b0be13d41c225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f1e32f124c22b314638b6afeddeefc') in 0.010885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/Core/SwipeGestureBase.cs
+  artifactKey: Guid(256e0728f7e166040a2cb2b659e0c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/Core/SwipeGestureBase.cs using Guid(256e0728f7e166040a2cb2b659e0c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227d614f3cd0dc70b4543f803de5b55d') in 0.010657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows
+  artifactKey: Guid(8764a8d39e09c444c8604bd2a5ae8ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows using Guid(8764a8d39e09c444c8604bd2a5ae8ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbe56d05cd829c35cf46a0165ab3e45') in 0.002903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/Joystick.prefab
+  artifactKey: Guid(e0815e227ed46e445b99930271e8942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/Joystick.prefab using Guid(e0815e227ed46e445b99930271e8942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1757a12d98f8685cd0e4786ed5dd585f') in 0.042274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(e2be7bac260ea754c9d3511eea54731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(e2be7bac260ea754c9d3511eea54731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7d18c4833bf45e49206612a22e5ae0') in 0.012390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Plugins/SimpleInput/Editor/SimpleInput.Editor.asmdef
+  artifactKey: Guid(97ed55e29de56d949952fd77c47a4695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Editor/SimpleInput.Editor.asmdef using Guid(97ed55e29de56d949952fd77c47a4695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b947be6b755d01909bf7df0a03fb2c6') in 0.014936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight
+  artifactKey: Guid(9049a04ef53ef3242949be3b54df861c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight using Guid(9049a04ef53ef3242949be3b54df861c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6537041809516c55ab9e1421073ac6d') in 0.011311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SimpleFX/Prefabs
+  artifactKey: Guid(cfb5e0cb6906e9341979cebd46da820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Prefabs using Guid(cfb5e0cb6906e9341979cebd46da820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb1bbe9ece9d30f44e2b1bd445c5fdd') in 0.003428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/SimpleInput/Scripts/SimpleInputHelper.cs
+  artifactKey: Guid(424a57205c2ff3c47aa53837c12b836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Scripts/SimpleInputHelper.cs using Guid(424a57205c2ff3c47aa53837c12b836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d0328510c82ae93a5dcadaa5de0d10') in 0.010826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Plugins/SimpleInput/Editor
+  artifactKey: Guid(62a0d830d542fb145ac5673fc0abacda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Editor using Guid(62a0d830d542fb145ac5673fc0abacda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e963c83d0983ff58329b41cc45897ae') in 0.013091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark25.png
+  artifactKey: Guid(53e917ccdf9fe484386a922fc2c12718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark25.png using Guid(53e917ccdf9fe484386a922fc2c12718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de34ff59c8da1387a20c2b01ce92176') in 0.039022 seconds 
