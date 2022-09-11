@@ -32,3 +32,20 @@ Inspector ScreenShot of Ground:
 ![image](https://user-images.githubusercontent.com/74751132/189519923-1885f769-655c-4847-9eee-774d131c0917.png)
 
 
+Hierarchy window ScreenShot:
+
+![image](https://user-images.githubusercontent.com/74751132/189520113-a14462dd-6836-487c-8903-b6545a6429f1.png)
+
+
+Hierarchy of Walls:
+![image](https://user-images.githubusercontent.com/74751132/189520156-2e3b8e89-c3af-4494-af17-da46ac403363.png)
+
+Hierarchy of Player:
+
+![image](https://user-images.githubusercontent.com/74751132/189520179-6e528fb0-9c0e-43d8-a2e8-5fd3de5e9e01.png)
+
+Hierarchy of Canvas:
+
+![image](https://user-images.githubusercontent.com/74751132/189520244-2b7307ce-b333-42a3-a0e7-83fbdc36a5f0.png)
+
+
