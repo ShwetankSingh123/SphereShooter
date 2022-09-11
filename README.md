@@ -31,6 +31,19 @@ Inspector ScreenShot of Ground:
 
 ![image](https://user-images.githubusercontent.com/74751132/189519923-1885f769-655c-4847-9eee-774d131c0917.png)
 
+Inspector ScreenShot of SpawnPoints:
+
+![image](https://user-images.githubusercontent.com/74751132/189520708-72765eb7-0304-478c-9d28-1325255ea479.png)
+
+
+Inspector ScreenShot of Enemy Prefab:                               enemy is a simple sphere that is not present in the Hierachy window. 
+
+![image](https://user-images.githubusercontent.com/74751132/189520454-4e5dbd2e-d839-4981-a16a-c3aeee8db1c4.png)
+
+Inspector ScreenShot of Bullet Prefab:                              this is another prefab that is not present in the Hierarchy window.
+
+![image](https://user-images.githubusercontent.com/74751132/189520619-f42f81a2-5b74-401a-a10a-5914603b7692.png)
+
 
 Hierarchy window ScreenShot:
 
@@ -55,13 +68,7 @@ Hierarchy of SpawnPoints:
 ![image](https://user-images.githubusercontent.com/74751132/189520299-94de0b12-f711-497e-b2db-71547709a28a.png)
 
 
-Inspector ScreenShot of Enemy Prefab:                               enemy is a simple sphere that is not present in the Hierachy window. 
 
-![image](https://user-images.githubusercontent.com/74751132/189520454-4e5dbd2e-d839-4981-a16a-c3aeee8db1c4.png)
-
-Inspector ScreenShot of Bullet Prefab:                              this is another prefab that is not present in the Hierarchy window.
-
-![image](https://user-images.githubusercontent.com/74751132/189520619-f42f81a2-5b74-401a-a10a-5914603b7692.png)
 
 
 
