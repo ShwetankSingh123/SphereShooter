@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ADB6A0B2-4A67-A170-861C-135D8BE4865C}</ProjectGuid>
+    <ProjectGuid>{6D640731-EF70-EF65-B419-8EBE4D495359}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SimpleInput.Runtime</AssemblyName>
