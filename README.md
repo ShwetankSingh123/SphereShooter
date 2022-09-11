@@ -38,6 +38,8 @@ Hierarchy window ScreenShot:
 
 
 Hierarchy of Walls:
+
+
 ![image](https://user-images.githubusercontent.com/74751132/189520156-2e3b8e89-c3af-4494-af17-da46ac403363.png)
 
 Hierarchy of Player:
