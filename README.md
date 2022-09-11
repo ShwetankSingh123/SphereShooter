@@ -48,4 +48,7 @@ Hierarchy of Canvas:
 
 ![image](https://user-images.githubusercontent.com/74751132/189520244-2b7307ce-b333-42a3-a0e7-83fbdc36a5f0.png)
 
+Hierarchy of SpawnPoints:
+
+![image](https://user-images.githubusercontent.com/74751132/189520299-94de0b12-f711-497e-b2db-71547709a28a.png)
 
