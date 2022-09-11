@@ -54,3 +54,8 @@ Hierarchy of SpawnPoints:
 
 ![image](https://user-images.githubusercontent.com/74751132/189520299-94de0b12-f711-497e-b2db-71547709a28a.png)
 
+
+Inspector ScreenShot of Enemy:   enemy is a simple sphere that is not present in the Hierachy window. 
+
+![image](https://user-images.githubusercontent.com/74751132/189520454-4e5dbd2e-d839-4981-a16a-c3aeee8db1c4.png)
+
